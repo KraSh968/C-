@@ -17,12 +17,12 @@ namespace WebApplication1
             });
         }
 
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        protected void login_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Send_Click(object sender, EventArgs e)
         {
 
         }

@@ -15,13 +15,13 @@ namespace WebApplication1
     {
 
         /// <summary>
-        /// form1 элемент управления.
+        /// Login_form элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm Login_form;
 
         /// <summary>
         /// Login элемент управления.
@@ -42,12 +42,12 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox Password_box;
 
         /// <summary>
-        /// Button1 элемент управления.
+        /// Send элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически созданное поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button Send;
     }
 }

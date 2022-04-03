@@ -15,7 +15,7 @@ namespace WebApplication1
             
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Send_Click(object sender, EventArgs e)
         {
             if (Login.Text == null);
             else Session.Add("1", Login.Text);

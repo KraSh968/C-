@@ -8,7 +8,7 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="Login_form" runat="server">
         <div>
             Логин:
             <asp:TextBox ID="Login" runat="server"></asp:TextBox>
@@ -16,7 +16,7 @@
             Пароль:
             <asp:TextBox ID="Password_box" runat="server"></asp:TextBox>
             <br />
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Войти" />
+            <asp:Button ID="Send" runat="server" OnClick="Send_Click" Text="Войти" />
         </div>
     </form>
 </body>
