@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Sixth.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <asp:Label ID="Label1" runat="server" Text="Содержимое 1 плейсхолдера:"></asp:Label>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <asp:Label ID="LabelMaster1" runat="server" Text="Значение по умолчанию"></asp:Label>
+                </asp:ContentPlaceHolder>
+            <br />
+            <asp:Label ID="Label2" runat="server" Text="Содержимое 2 плейсхолдера:"></asp:Label>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                <asp:Label ID="LabelMaster2" runat="server" Text="Label"></asp:Label>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
