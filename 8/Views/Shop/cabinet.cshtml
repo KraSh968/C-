@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "cabinet";
+}
+
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<div>
+    <table class="table table-striped">
+        <tr class="header">
+            <td><p>Название</p></td>
+            <td><p>Стоимость</p></td>
+            <td><p>Количество</p></td>
+            <td></td>
+        </tr>
+        @foreach (WebApplication8.Models.Orders b in ViewBag.Orders)
+        {
+            <tr>
+                <td><p>@b.name</p></td>
+                <td><p>@b.cost</p></td>
+                <td><p>@b.amount_add</p></td>
+
+            </tr>
+        }
+    </table>
+</div>
+
+@Html.ActionLink("Оформить заказ", "buyAll")
+
+@Html.ActionLink("Выйти", "logout")
